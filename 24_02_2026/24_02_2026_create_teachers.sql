@@ -36,7 +36,7 @@
 -- ALTER TABLE Teachers1 RENAME to Teachers_reserv;
 -- alter TABLE Teachers_reserv DROP COLUMN Salary;
 -- ALTER TABLE Teachers_reserv RENAME TO Teachers_reserv;
-SELECT * FROM Teachers_reserv;
+-- SELECT * FROM Teachers_reserv;
 -- alter table Teachers_reserv add column Salary integer default 90000;
 
 -- update Teachers_reserv set  Salary=Salary+10000 where id in(1,3,5);
